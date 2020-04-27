@@ -6,6 +6,7 @@ import { Route } from "react-router-dom";
 import NavBar from "./components/NavBar";
 import Home from "./components/Home";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 export default function App() {
   return (
@@ -18,6 +19,9 @@ export default function App() {
 
       <div className='center_img'>
         <img src={center_img} alt='A woman by some water' />
+      </div>
+      <div>
+        <Footer />
       </div>
     </div>
   );
